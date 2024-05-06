@@ -1,4 +1,7 @@
-*.bat
-
-*.elf
 build/
+.vscode/
+
+include/vscode_fix.h
+
+*.bat
+*.elf
