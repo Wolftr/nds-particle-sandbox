@@ -4,11 +4,11 @@
 int main()
 {
 	// Initialize the video modes of both screens
-    videoSetMode(MODE_0_2D);
+    //videoSetMode(MODE_0_2D);
     videoSetModeSub(MODE_0_2D);
 
 	// Create the simulation
-	Simulation simulation = Simulation(SCREEN_WIDTH, SCREEN_HEIGHT);
+	Simulation simulation = Simulation(256, 192);
 
 	// Game loop
 	while (true)
