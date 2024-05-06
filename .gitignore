@@ -5,3 +5,4 @@ include/vscode_fix.h
 
 *.bat
 *.elf
+*.nds
